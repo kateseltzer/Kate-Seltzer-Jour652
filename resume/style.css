@@ -5,11 +5,15 @@
   color: #444;
 }
 /*banner name on top*/
-h1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-align: center;
   text-transform: uppercase;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 /*my title*/
 strong {
@@ -18,11 +22,15 @@ strong {
   color: #33485e
 }
 /*experience, edu, skills*/
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: white;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0
+  margin-right: 0
 }
 /*job titles*/
 h3 {
