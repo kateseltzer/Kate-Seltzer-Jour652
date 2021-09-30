@@ -14,6 +14,7 @@
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
+  font-weight: 600;
 }
 /*my title*/
 strong {
@@ -33,19 +34,42 @@ strong {
   margin-right: 0
 }
 /*job titles*/
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 /*company*/
-h4 {
-  font-size: 1.5em;
+.organization {
+  font-size: 1.25em;
 }
 /*years*/
-h5 {
+.date {
   font-size: 1em;
+  margin: 2 0 0;
 }
 /*bullets under contact,edu, skills*/
 .mainlist li {
   font-size: 1em;
+}
+
+.description {
+  margin: 10 0;
+}
+
+.menu {
+  margin: 0 0;
+  padding: 0 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+}
+
+#degrees li {
+  margin: 5px 0 0;
+}
+
+#do li {
+  margin: 5px 0 0;
 }
