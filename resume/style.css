@@ -4,6 +4,13 @@
   font-size: 1em;
   color: #444;
 }
+
+#container: {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
 /*banner name on top*/
 #name {
   font-size: 3em;
@@ -17,10 +24,13 @@
   font-weight: 600;
 }
 /*my title*/
-strong {
+#title {
   text-transform: uppercase;
   font-size: 1.5em;
   color: #33485e
+  font-weight: 600;
+  text-align: center;
+  margin: 20 auto;
 }
 /*experience, edu, skills*/
 .sectionheader {
