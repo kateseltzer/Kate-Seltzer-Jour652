@@ -1,0 +1,52 @@
+/*heading styles*/
+
+h1{
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+}
+
+h2{
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+}
+
+h3{
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px
+}
+
+p{
+  font-size: 12px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+img src{
+  align-items: center;
+}
+
+#rapinoe1{
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.caption{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 15px;
+}
+
+#content{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#byline{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 15px;
+}
+
+blockquote{
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
