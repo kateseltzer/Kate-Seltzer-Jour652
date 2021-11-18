@@ -1,0 +1,10 @@
+.container{
+  width: 100%;
+  max-width: 900px;
+}
+
+.hero-container{
+  position:relative;
+  text-align: center;
+  color: white;
+}
