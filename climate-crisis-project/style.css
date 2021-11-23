@@ -4,7 +4,54 @@
 }
 
 .hero-container{
-  position:relative;
+  position: relative;
   text-align: center;
   color: white;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  background:000000 !important;
+  opacity:.7;
+}
+
+.hero-hed{
+  padding-top: 10px;
+  font-size: 6em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.hero-subhed{
+  padding-top: 10px;
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.photo{
+  width: 100%;
+  max-width: 900px;
+}
+
+.nav-logo{
+  color: white;
+  margin: 0 auto;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.red{
+  color: #D21404
+};
+}
+
+p{
+  color: black;
+  font-family: 'Merriweather', serif;
+  background: white;
 }
