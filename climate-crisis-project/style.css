@@ -1,6 +1,7 @@
 .container{
   width: 100%;
   max-width: 900px;
+  font-family: 'Merriweather', serif;
 }
 
 .hero-container{
@@ -17,25 +18,24 @@
   position: absolute;
   width: 100%;
   top: 20%;
-  background:000000 !important;
+  background-color: #000000;
   opacity:.7;
 }
 
 .hero-hed{
   padding-top: 10px;
-  font-size: 6em;
+  font-size: 2em;
   font-family: 'Oswald', sans-serif;
 }
 
 .hero-subhed{
   padding-top: 10px;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Oswald', sans-serif;
 }
 
 .photo{
   width: 100%;
-  max-width: 900px;
 }
 
 .nav-logo{
@@ -51,7 +51,53 @@
 }
 
 p{
-  color: black;
+  color: white;
   font-family: 'Merriweather', serif;
-  background: white;
+  background: black;
+}
+
+.photo-large{
+  width: 100%;
+  max-width: 1500px;
+}
+
+.quote{
+  font-family: 'Oswald', sans-serif;
+  color: #D21404;
+  font-size: 2.5em;
+  text-align: center;
+  font-style: italic;
+}
+
+.speaker{
+  font-family: 'Oswald', sans-serif;
+  color: #D21404;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+.chapter{
+  font-family: 'Oswald', sans-serif;
+  color: #D21404;
+  font-size: 1.75em;
+}
+
+.caption{
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  text-align: right;
+  font-size: 1em;
+}
+
+.sidebar{
+  border-top: solid #D21404 2px;
+  border-bottom: solid #D21404 2px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2{
+  text-align: center;
 }
